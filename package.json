@@ -1,0 +1,42 @@
+{
+  "name": "menu-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://nourtaha13.github.io/menu-project/",
+  "scripts": {
+    "dev": "vite",
+    "build": "react-scripts build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "gh-pages": "^4.0.0",
+    "global": "^4.4.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^18.2.0",
+    "react-reveal": "^1.2.2",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.22",
+    "@types/react-dom": "^18.0.7",
+    "@vitejs/plugin-react": "^2.2.0",
+    "vite": "^3.2.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
